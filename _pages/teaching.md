@@ -2,11 +2,16 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: <b>I am passionate about accessible CS & ML education!</b> As part of the Learning Assistant (LA) Program at UCLA and Co-President of ACM AI @ UCLA, teaching is a big part of my CS & ML journey.
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+## UCLA Learning Assistant Program
 
-Organize your courses by years, topics, or universities, however you like!
+- Summer 2023 & Onwards: Program Development Team Member
+- Spring 2023, CS 33: Introduction to Computer Organization, Merged (Logistical + Pedagogy) Head LA
+- Fall 2022, CS 33: Introduction to Computer Organization, Returning LA
+- Spring 2022, CS 33: Introduction to Computer Organization, New LA
+
+## ACM AI @ UCLA

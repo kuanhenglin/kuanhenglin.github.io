@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - kuanhenglin
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - kuanhenglin/eggmacs
+  - hametar0u/people2vec
+  - kuanhenglin/fahrenheit-denialists
+  - bliutech/wikisafe
+  - bliutech/re
+  - bliutech/qwerty

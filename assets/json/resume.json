@@ -1,12 +1,10 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "name": "Kuan Heng (Jordan) Lin",
+    "image": "assets/img/jordan.jpg",
+    "email": "kuanhenglin at ucla dot edu",
+    "url": "https://kuanhenglin.github.io",
+    "summary": "A third-year Computer Science undergraduate at UCLA doing research in ",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,7 +22,7 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
+      "name": "Program Development Team",
       "position": "Professor of Theoretical Physics",
       "url": "https://example.com",
       "startDate": "1933-01-01",
@@ -38,15 +36,15 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
+      "institution": "University of California, Los Angeles",
+      "url": "https://www.ucla.edu/",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Science",
+      "startDate": "2021-09",
+      "endDate": "2025-06",
+      "score": "4.0",
       "courses": [
-        "Theory of Relativity"
+        "GPA: 4.0"
       ]
     }
   ],
@@ -63,7 +61,7 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
+      "language": "Chinese",
       "fluency": "Native speaker"
     },
     {

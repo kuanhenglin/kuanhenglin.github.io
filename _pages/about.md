@@ -1,26 +1,25 @@
 ---
 layout: about
-title: about
+title: me
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: CS + Math @ UCLA | Student Researcher @ Zhou Lab | URC-Sciences Summer | LA Program PDT | ACM AI
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: jordan.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is **Kuan Heng (Jordan) Lin**, and I am a third-year Computer Science undergraduate at UCLA with a minor in Mathematics, working in Professor [Bolei Zhou](https://boleizhou.github.io/)'s lab on computer vision and generative AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research interests stem from **generative AI** to topics such as computer vision, interpretability, image processing, biomedical imaging, optimization, and natural language processing. Particularly, my work revolves around pushing the boundaries and applications of large text-to-image (T2I) models like Stable Diffusion with relatively training-free methods.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am the Co-President of ACM AI @ UCLA (2023--2024), and I am part of the Program Development Team at the UCLA Learning Assistant Program.
+
+**My name:** 林宽恒 (lín kuān héng), hence my legal name <b>Kuan Heng Lin</b>
