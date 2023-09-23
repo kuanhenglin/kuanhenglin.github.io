@@ -46,38 +46,6 @@ toc:
 
 > We explore the inversion and latent space manipulation of diffusion models, particularly the denoising diffusion implicit model (DDIM), a variant of the denoising diffusion probabilistic model (DDPM) with deterministic (and acceleratable) sampling and thus a meaningful mapping from the latent space $$\mathcal{Z}$$ to the image space $$\mathcal{X}$$. We implement and compare optimization-based, learning-based, and hybrid inversion methods adapted from GAN inversion, and we find that optimization-based methods work well, but learning-based and hybrid methods run into obstacles fundamental to diffusion models. We also perform latent space interpolation to show that the DDIM latent space is continuous and meaningful, just like that of GANs. Lastly, we apply GAN semantic feature editing methods to DDIMs, visualizing binary attribute decision boundaries to showcase the unique interpretability of the diffusion latent space.
 
-<head>
-    <style>
-        .column-half {
-            float: left;
-            width: 50%;
-            padding: 0px;
-        }
-        .column-third {
-            float: left;
-            width: 33.3%;
-            padding: 0px;
-        }
-        .column-twothird {
-            float: left;
-            width: 66.7%;
-            padding: 0px;
-        }
-        .16-9 {
-            aspect-ratio: 16/9;
-        }
-        .square {
-            aspect-ratio: 1/1;
-        }
-        .table-none {
-            border: none;
-        }
-        .table-none tr td th {
-            border: none;
-        }
-    </style>
-</head>
-
 <div class="repo p-2 text-center github-repo-in-post" style="margin-bottom: 0em !important;">
   <a href="https://github.com/kuanhenglin/ddim-inversion" rel="external nofollow noopener" target="_blank">
     <img class="repo-img-light w-100" alt="kuanhenglin/ddim-inversion" src="https://github-readme-stats.vercel.app/api/pin/?username=kuanhenglin&amp;repo=ddim-inversion&amp;theme=default&amp;show_owner=false">
@@ -1288,9 +1256,3 @@ Keras implementation of DDIM tested on Oxford Flowers102 dataset at a small scal
 
 [3C] [The annotated diffusion model](https://huggingface.co/blog/annotated-diffusion) \\
 The Hugging Face implementation and annotation of the DDPM. This is the original code I followed last quarter (when I was experimenting on my own) to get a basic understanding of DDPMs, and I partly based my code module organization and variable naming conventions on the blog post.
-
-## Code Repository
-
-[Here](https://github.com/kuanhenglin/ddim-inversion) is the link to my code repository for the project.
-
----

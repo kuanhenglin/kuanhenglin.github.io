@@ -8,7 +8,7 @@ middle_name: # No middle name
 last_name: Lin
 email: kuanhenglin@ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  CS + Math @ UCLA | Student Researcher @ Zhou Lab | URC-Sciences Summer | LA Program PDT | ACM AI
+  Kuan Heng (Jordan) Lin | CS + Math @ UCLA | Student Researcher @ Zhou Lab | URC-Sciences Summer | LA Program PDT | ACM AI
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & Jordan, a fork of <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jordan, lin, kuanheng, machine learning, computer vision, generative AI, UCLA, jekyll, jekyll-theme  # add your own keywords or leave empty
@@ -123,7 +123,7 @@ bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
 
 blog_name: The Bulletin # blog_name will be displayed in your blog page
 blog_nav_title: Projects & Blogs # your blog must have a title for it to be displayed in the nav bar
-blog_description: Things that are <i>almost</i> research :P
+blog_description: Projects and things that are <i>almost</i> research :P
 permalink: /blog/:year/:title/
 
 # Pagination

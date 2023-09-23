@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching
 description: <b>I am passionate about accessible CS & ML education!</b> As part of the Learning Assistant (LA) Program at UCLA and Co-President of ACM AI @ UCLA, teaching is a big part of my CS & ML journey.
 nav: true
-nav_order: 5
+nav_order: 4
 ---
 
 *I will put my past teaching resources here in the near future :D This page is being actively updated.*

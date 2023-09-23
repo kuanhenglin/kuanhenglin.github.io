@@ -3,8 +3,8 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: Here are some of my mildly notable repositories for you to poke around :D
-nav: true
-nav_order: 4
+nav: false
+nav_order: 6
 ---
 
 <!-- ## GitHub users

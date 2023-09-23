@@ -1048,3 +1048,41 @@ nav[data-toggle="toc"] {
   height: 500px;
   margin-bottom: 1.0em;
 }
+
+.margin-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// DDIM Inversion
+
+.column-half {
+  float: left;
+  width: 50%;
+  padding: 0px;
+}
+
+.column-third {
+  float: left;
+  width: 33.3%;
+  padding: 0px;
+}
+
+.column-twothird {
+  float: left;
+  width: 66.7%;
+  padding: 0px;
+}
+
+.square {
+  aspect-ratio: 1/1;
+}
+
+.table-none {
+  border: none;
+}
+
+.table-none tr td th {
+  border: none;
+}
