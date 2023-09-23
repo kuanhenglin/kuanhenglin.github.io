@@ -1,9 +1,16 @@
 ---
-layout: cv
+layout: page
 permalink: /cv/
-title: cv
-nav: false
-nav_order: 4
-cv_pdf: example_pdf.pdf
-description: Here is an overview of what I have done since September 2021 :D
+title: CV & Resume
+nav: true
+nav_order: 3
+description: You can find my curriculum vitae and resume (a.k.a., one-page version of CV) here!
 ---
+
+## Curriculum Vitae
+
+Coming soon!
+
+## Resume
+
+<iframe class="iframe-pdf" src="/assets/pdf/resume.pdf" frameborder="0"></iframe>

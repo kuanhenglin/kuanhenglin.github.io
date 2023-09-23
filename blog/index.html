@@ -111,7 +111,7 @@ pagination:
 <div class="row">
           <div class="col-sm-9">
 {%- endif -%}
-        <h3>
+        <!-- <h3>
         {% if post.redirect == blank %}
           <a class="post-title" href="{{ post.url | relative_url }}">{{ post.title }}</a>
         {% elsif post.redirect contains '://' %}
@@ -150,7 +150,88 @@ pagination:
               <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
               {% endfor %}
           {% endif %}
+    </p> -->
+    <!-- Added (from https://github.com/alshedivat/al-folio/issues/425#issuecomment-1073130372) -->
+    {%- if post.img -%}
+    <div class="row">
+      
+      <div class="col-sm-7">
+        <div class="card-body" style="padding: 0rem !important;">
+          <h3>
+            {% if post.redirect == blank %}
+              <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            {% else %}
+            <a class="post-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
+            {% endif %}
+          </h3>
+          
+          <p>{{ post.description }}</p>
+          <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
+            {{ post.date | date: '%B %-d, %Y' }}
+          </p>
+          <p class="post-tags">
+            <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+              <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+
+              {% if tags != "" %}
+              &nbsp; &middot; &nbsp;
+                {% for tag in post.tags %}
+                <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+                  <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+                  {% endfor %}
+              {% endif %}
+
+              {% if categories != "" %}
+              &nbsp; &middot; &nbsp;
+                {% for category in post.categories %}
+                <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+                  <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+                  {% endfor %}
+              {% endif %}
+          </p>
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <div class="card-body" style="padding: 0rem !important;">
+          <img class="card-img" src="{{post.img | relative_url}}" style="object-fit: cover; height: 100%" alt="image">
+        </div>
+          
+      </div>
+    </div>
+  {%- else -%}
+    <h3>
+      {% if post.redirect == blank %}
+        <a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      {% else %}
+      <a class="post-title" href="{% if post.redirect contains '://' %}{{ post.redirect }}{% else %}{{ post.redirect | relative_url }}{% endif %}">{{ post.title }}</a>
+      {% endif %}
+    </h3>
+    <p>{{ post.description }}</p>
+    <p class="post-meta"> {{read_time}} min read &nbsp; &middot; &nbsp;
+      {{ post.date | date: '%B %-d, %Y' }}
     </p>
+    <p class="post-tags">
+      <a href="{{ year | prepend: '/blog/' | prepend: site.baseurl}}">
+        <i class="fas fa-calendar fa-sm"></i> {{ year }} </a>
+
+        {% if tags != "" %}
+        &nbsp; &middot; &nbsp;
+          {% for tag in post.tags %}
+          <a href="{{ tag | prepend: '/blog/tag/' | prepend: site.baseurl}}">
+            <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
+            {% endfor %}
+        {% endif %}
+
+        {% if categories != "" %}
+        &nbsp; &middot; &nbsp;
+          {% for category in post.categories %}
+          <a href="{{ category | prepend: '/blog/category/' | prepend: site.baseurl}}">
+            <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
+            {% endfor %}
+        {% endif %}
+    </p>
+  {% endif %}
+  <!-- Add finish -->
 {%- if post.thumbnail -%}
     </div>
   <div class="col-sm-3">

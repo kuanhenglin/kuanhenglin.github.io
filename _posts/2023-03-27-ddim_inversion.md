@@ -1,16 +1,16 @@
 ---
 layout: distill
-title: DDIM Inversion and Latent Space Manipulation
-author: Kuan Heng (Jordan) Lin
-img: /assets/img/ddim_inversion/celeba_editing_smile_1.png
+title: "&#x1f501; DDIM Inversion and Latent Space Manipulation"
+img: /assets/img/ddim_inversion/celeba_editing_smile_all.png
 date: 2023-03-27
-giscus_comments: true
+tags: CV, generative_AI, diffusion
+categories: research
 
 authors:
   - name: Kuan Heng (Jordan) Lin
     url: "https://kuanhenglin.github.io"
     affiliations:
-        name: University of California, Los Angeles
+        name: UCLA CS
 
 toc:
   - name: Introduction
@@ -78,7 +78,12 @@ toc:
     </style>
 </head>
 
-[Here](https://github.com/kuanhenglin/ddim-inversion) is the link to the GitHub repository containing my current code, some snippets of which is shown below.
+<div class="repo p-2 text-center github-repo-in-post" style="margin-bottom: 0em !important;">
+  <a href="https://github.com/kuanhenglin/ddim-inversion" rel="external nofollow noopener" target="_blank">
+    <img class="repo-img-light w-100" alt="kuanhenglin/ddim-inversion" src="https://github-readme-stats.vercel.app/api/pin/?username=kuanhenglin&amp;repo=ddim-inversion&amp;theme=default&amp;show_owner=false">
+    <img class="repo-img-dark w-100" alt="kuanhenglin/ddim-inversion" src="https://github-readme-stats.vercel.app/api/pin/?username=kuanhenglin&amp;repo=ddim-inversion&amp;theme=dark&amp;show_owner=false">
+  </a>
+</div>
 
 ## Introduction
 
