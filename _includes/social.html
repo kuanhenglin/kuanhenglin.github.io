@@ -1,6 +1,11 @@
             {%- if site.email -%}
             <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fas fa-envelope"></i></a>
             {% endif %}
+            <!-- Resume addition -->
+            {%- if site.cv_resume -%}
+            <a href="{{ site.url }}{{ site.cv_resume }}" title="CV/Resume"><i class="ai ai-cv"></i></a>
+            {% endif %}
+            <!-- Resume addition END -->
             {%- if site.telegram_username -%}
             <a href="https://telegram.me/{{ site.telegram_username }}" title="telegram"><i class="fab fa-telegram"></i></a>
             {% endif %}
