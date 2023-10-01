@@ -36,7 +36,7 @@ toc:
 
 ---
 
-> We created a 3D sandbox scene of the "lofi beats to relax/study to" girl with a fully-fledged physics engine, rigged models, and shadowing in `tiny-graphics.js`. This is our final project for UCLA's CS 174A: Introduction to Computer Graphics, Spring 2022, taught by [Dr. Asish Law](https://www.linkedin.com/in/asishlaw/).
+> We created a 3D sandbox scene of the "lofi beats to relax/study to" girl with a fully-fledged physics engine (with linear & angular collision detection & resolution), rigged models, and shadowing in `tiny-graphics.js`.
 
 <div class="repo p-2 text-center github-repo-in-post">
   <a href="https://github.com/kuanhenglin/fahrenheit-denialists" rel="external nofollow noopener" target="_blank">
@@ -124,3 +124,7 @@ Then, type `localhost:8000` into your browser, hit enter and have fun :D
 We use [`tiny-graphics.js`](https://github.com/encyclopedia-of-code/tiny-graphics-js.git), which is like [`three.js`](https://threejs.org/) but worse.
 
 *Have fun exploring our demo!*
+
+---
+
+ This is our final project for UCLA's CS 174A: Introduction to Computer Graphics, Spring 2022, taught by [Dr. Asish Law](https://www.linkedin.com/in/asishlaw/).
