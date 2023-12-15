@@ -10,7 +10,7 @@ email: kuanhenglin@ucla.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Kuan Heng (Jordan) Lin | CS + Math @ UCLA | Student Researcher @ Zhou Lab | URC-Sciences Summer | LA Program PDT | ACM AI
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> & Jordan, a fork of <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by Jordan & <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, a fork of <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jordan, lin, kuanheng, machine learning, computer vision, generative AI, UCLA, jekyll, jekyll-theme  # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
@@ -273,8 +273,8 @@ display_categories: ['research', 'project'] # these categories will be displayed
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [Lin]
+  first_name: [Kuan Heng, Jordan, Kuan Heng (Jordan)]
 
   style: apa
   locale: en
@@ -306,7 +306,7 @@ badges: # Display different badges for your publications
 filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
-max_author_limit: 3  # leave blank to always show all authors
+max_author_limit:  # leave blank to always show all authors
 more_authors_animation_delay: 10  # more authors are revealed on click using animation; smaller delay means faster animation
 
 

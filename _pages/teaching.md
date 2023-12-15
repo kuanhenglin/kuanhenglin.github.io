@@ -20,3 +20,13 @@ nav_order: 4
 
 - Spring 2023--Present: **Co-President**
 - Spring 2022--Spring 2023: **Workshops Officer**
+
+### AI Reading Group
+
+I am the organizer for the [AI Reading Group](https://bit.ly/acm_ai_23_24_reading_cluster), a bi-weekly meeting of officers and general members to discuss current important areas of machine learning research. We have covered a wide range of topics such as diffusion models, reinforcement learning, climate AI, quantum ML, federated learning attacks & defenses, audio ML, ML engineering, with many more to come!
+
+I recently led an AI Reading Group session myself on "Generative Models, 'AI Art," and Beyond" where I introduced the landscape of generative vision, layed the foundation for diffusion models, explained text-to-image models like Stable Diffusion, and presented subsequent works on controllable generation, video generation, 3D generation, distillation, and more.
+
+<!-- <iframe width="100%" src="https://www.youtube.com/watch?v=eN0nYqtdkb0&list=PLPO7_kXilXFZAQ54gPk31dqM77WTL5Mm3&index=5" frameborder="0" allowfullscreen></iframe> -->
+
+<iframe class="iframe-video" src="https://www.youtube.com/embed/eN0nYqtdkb0?si=dWGJrzNLKmsqoS4d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
