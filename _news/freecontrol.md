@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I just published my first paper [FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition](https://genforce.github.io/freecontrol/) at UCLA, working with the amazing [Sicheng Mo](https://sichengmo.github.io/) :D
+I just released my first paper [FreeControl: Training-Free Spatial Control of Any Text-to-Image Diffusion Model with Any Condition](https://genforce.github.io/freecontrol/) at UCLA, working with the amazing [Sicheng Mo](https://sichengmo.github.io/) :D
