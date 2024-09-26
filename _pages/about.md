@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hello! My name is **Kuan Heng (Jordan) Lin**, and I am a third-year Computer Science undergraduate at UCLA with a minor in Mathematics, working with Professor [Bolei Zhou](https://boleizhou.github.io/) on computer vision and generative AI.
+Hello! My name is **Kuan Heng (Jordan) Lin**, and I am a fourth-year Computer Science undergraduate at UCLA with a minor in Mathematics, working with Professor [Bolei Zhou](https://boleizhou.github.io/) on computer vision and generative AI.
 
 My research interests stem from **generative AI** to topics such as computer vision, multimodal generation, controllable generation, interpretability, image processing, biomedical imaging, and optimization. Particularly, my work revolves around pushing the boundaries and applications of large generative models to allow us to interact with them in a more **human** way.
 
