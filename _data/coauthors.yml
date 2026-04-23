@@ -1,23 +1,63 @@
-"Lin":
-  - firstname: ["Kuan Heng"]
-    url: https://kuanhenglin.github.io
+"Burgert":
+  - firstname: ["Ryan"]
+    url: https://ryanndagreat.github.io/
 
-"Mo":
-  - firstname: ["Sicheng"]
-    url: https://sichengmo.github.io/
+"Debevec":
+  - firstname: ["Paul"]
+    url: https://www.pauldebevec.com/
 
-"Zhou":
-  - firstname: ["Bolei"]
-    url: https://boleizhou.github.io/
+"Goldblum":
+  - firstname: ["Micah"]
+    url: https://goldblum.github.io/
 
-"Mu": 
-  - firstname: ["Fangzhou"]
-    url: https://pages.cs.wisc.edu/~fmu/
+"Kant":
+  - firstname: ["Yash"]
+    url: https://yashkant.github.io/
+
+"Klingher":
+  - firstname: ["Ben"]
+    url: https://bklingher.github.io/
 
 "Li":
   - firstname: ["Yin"]
     url: https://www.biostat.wisc.edu/~yli/
 
-"Klingher":
-  - firstname: ["Ben"]
-    url: https://bklingher.github.io/
+"Lin":
+  - firstname: ["Kuan Heng"]
+    url: https://kuanhenglin.github.io
+
+"Liu":
+  - firstname: ["Zhizheng"]
+    url: https://bosmallear.github.io/
+
+"Mo":
+  - firstname: ["Sicheng"]
+    url: https://sichengmo.github.io/
+
+"Mu":
+  - firstname: ["Fangzhou"]
+    url: https://pages.cs.wisc.edu/~fmu/
+
+"Namekata":
+  - firstname: ["Koichi"]
+    url: https://kmcode1.github.io/
+
+"Salamanca":
+  - firstname: ["Pablo"]
+    url: https://pablosalaman.ca/
+
+"Xu":
+  - firstname: ["Yuancheng"]
+    url: https://yuancheng-xu.github.io/
+
+"Yu":
+  - firstname: ["Ning"]
+    url: https://ningyu1991.github.io/
+
+"Zhao":
+  - firstname: ["Yiwei"]
+    url: https://zhaoyw007.github.io/
+
+"Zhou":
+  - firstname: ["Bolei"]
+    url: https://boleizhou.github.io/
