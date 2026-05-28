@@ -1,0 +1,252 @@
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/jost_italic_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/jetbrainsmono_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains Mono';
+  src: url('/fonts/jetbrainsmono_italic_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --text: #222222;
+  --text-light: #777777;
+  --accent: #1D4F91;
+  --accent-light: #B9D9EB;
+  --emph: #C75000;
+  --weight-regular: 350;
+  --weight-bold: 600;
+  --weight-light: 250;
+  --weight-light-bold: 500;
+}
+
+body {
+  font-family: 'Jost', -apple-system, sans-serif;
+  font-weight: var(--weight-regular);
+  font-feature-settings: "ss01";
+  max-width: 56rem;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+a, a:visited {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent-light);
+}
+
+code, kbd, pre, samp, .mono {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+p {
+  margin: 0.6em 0;
+}
+
+b, strong, h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--weight-bold);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 2.5em;
+}
+
+.jordan {
+  margin-left: 0.1em;
+}
+
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 0;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-top: 0.7em;
+  margin-bottom: 0;
+}
+
+.signature {
+  height: 1em;
+  width: auto;
+  vertical-align: -0.15em;
+  margin-left: 0.15em;
+  fill: currentColor;
+}
+
+.muted {
+  font-weight: var(--weight-light);
+  color: var(--text-light);
+}
+
+.subtitle {
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  font-weight: var(--weight-light);
+  color: var(--text-light);
+}
+
+.subtitle b {
+  font-weight: var(--weight-light-bold);
+  color: var(--text-light);
+}
+
+.ruby-char {
+  display: inline-block;
+  position: relative;
+  vertical-align: baseline;
+  width: 1.5em;
+  padding-top: 0.7em;
+  text-align: center;
+  line-height: 1;
+}
+
+.ruby-rt {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 0.7em;
+  line-height: 1;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 1fr min(16em, 33%);
+  gap: 2rem;
+  align-items: start;
+}
+
+.profile-pic {
+  width: 100%;
+  display: block;
+}
+
+.bare {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.intro-side {
+  container-type: inline-size;
+}
+
+.links {
+  list-style: none;
+  padding: 0;
+  margin: 1em 0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.3em 0.8em;
+}
+
+.links li {
+  white-space: nowrap;
+}
+
+@container (min-width: 11em) {
+  .links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@container (min-width: 16em) {
+  .links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@container (min-width: 32em) {
+  .links {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.pubs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.pub {
+  display: grid;
+  grid-template-columns: 12em 1fr;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.pub-teaser {
+  width: 100%;
+  display: block;
+}
+
+.pub-note {
+  color: var(--emph);
+  margin-left: 0.5em;
+}
+
+.pub-links a + a::before {
+  content: " / ";
+  color: var(--text);
+}
+
+.pub-blurb {
+  color: var(--text-light);
+}
+
+@media (max-width: 32em) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+  .profile-pic {
+    max-width: 16em;
+    margin: 0 auto;
+  }
+  .pub {
+    grid-template-columns: 1fr;
+  }
+  .pub-teaser {
+    max-width: 16em;
+    margin: 0 auto;
+  }
+}
+
+footer {
+  margin-top: 3rem;
+  color: var(--text-light);
+  font-size: 0.8em;
+  font-weight: var(--weight-light);
+  text-align: center;
+}

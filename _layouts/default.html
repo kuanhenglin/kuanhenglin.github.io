@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base target="_blank">
+
+  <title>{% if page.title and page.title != site.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+
+  <!-- Google Search Console verification -->
+  <meta name="google-site-verification" content="2ysYY94L9bLN-i1XoWu7BuHHZWNxwFwVBd0Avh3-vG4" />
+
+  <!-- OpenGraph (link previews on Twitter, LinkedIn, Slack, iMessage, etc.) -->
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{ page.title | default: site.title }}">
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+  <meta property="og:description" content="{{ page.description | default: site.description }}">
+  <meta property="og:image" content="{{ '/media/jordan.jpg' | absolute_url }}">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}">
+  <meta name="twitter:description" content="{{ page.description | default: site.description }}">
+  <meta name="twitter:image" content="{{ '/media/jordan.jpg' | absolute_url }}">
+  <meta name="twitter:site" content="@kuanhenglin">
+  <meta name="twitter:creator" content="@kuanhenglin">
+
+  <!-- Schema.org Person (Google Knowledge Graph signal) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Kuan Heng Lin",
+    "alternateName": "Jordan Lin",
+    "url": "{{ site.url }}",
+    "image": "{{ '/media/jordan.jpg' | absolute_url }}",
+    "jobTitle": "PhD Student",
+    "affiliation": {
+      "@type": "EducationalOrganization",
+      "name": "Columbia University"
+    },
+    "sameAs": [
+      "https://github.com/kuanhenglin",
+      "https://scholar.google.com/citations?user=TRUDDkoAAAAJ",
+      "https://www.linkedin.com/in/kuanhenglin",
+      "https://twitter.com/kuanhenglin"
+    ]
+  }
+  </script>
+
+  <link rel="icon" type="image/x-icon" href="/media/jordan_avatar.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.7.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  {{ content }}
+  <footer>
+    &copy; Kuan Heng (Jordan) Lin {{ 'now' | date: "%Y" }}. All rights reserved.
+  </footer>
+
+  <!-- Statcounter -->
+  <script type="text/javascript">
+    var sc_project=13259055;
+    var sc_invisible=1;
+    var sc_security="5c699316";
+  </script>
+  <script type="text/javascript" src="https://www.statcounter.com/counter/counter.js" async></script>
+  <noscript><div class="statcounter"><a title="Web Analytics" href="https://statcounter.com/"><img class="statcounter" src="https://c.statcounter.com/13259055/0/5c699316/1/" alt="Web Analytics" referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+</body>
+</html>

@@ -1,0 +1,114 @@
+---
+layout: default
+title: Jordan Lin
+---
+
+<div class="intro">
+  <div class="intro-text">
+    <h1 class="jordan">Jordan Lin<svg class="signature" viewBox="0 0 2000 2200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M1318.27,990.24c-45.66-93.55-84.39-162.13-125.58-222.37-28.97-42.36-59-80.29-91.79-115.75,35.02-16.16,66.35-38.98,93.14-67.88,55.32-59.69,85.78-139.69,85.78-225.24,0-73.87-36.3-140.27-102.21-186.98-56.45-40-129.69-62.03-206.23-62.03-81.44,0-155.5,38.06-208.52,107.17-45.09,58.77-70.96,135.5-70.96,210.51s32.73,143.08,92.15,189.02c27.56,21.31,60.25,37.51,96.1,47.98-78.26,125.31-140.24,265.2-192.16,432.57-10.83,34.92,8.65,72.03,43.51,82.88,6.53,2.03,13.14,3,19.63,3,28.18,0,54.3-18.2,63.1-46.58,34.42-110.97,73.38-208.68,118.95-297.42,3.57,98.27,3.63,204.55,3.26,286.9-.35,3.82-.38,7.68-.06,11.55v.83c-25.08,80.22-47.87,175.64-69.56,291.29-21.15,112.74-41.38,245.43-61.85,405.67-4.63,36.27,20.96,69.44,57.17,74.08,2.85.36,5.68.54,8.47.54,32.77,0,61.21-24.4,65.48-57.82,25.23-197.45,50.67-356.11,77.8-483.72,1.31,4.9,2.63,9.89,3.97,15,30.11,114.89,61.11,259.03,92.13,428.44,5.85,31.93,33.65,54.28,64.94,54.28,3.96,0,7.97-.36,12-1.1,35.91-6.6,59.67-41.1,53.09-77.07-31.62-172.65-63.35-320.07-94.29-438.16-27.14-103.57-53.02-181.7-77.05-232.72.38-89.8.16-199.85-4.07-301.25,50.09,67.99,91.57,143.79,134.88,232.54,11.47,23.49,34.97,37.15,59.43,37.15,9.74,0,19.64-2.17,28.98-6.74,32.81-16.06,46.4-55.72,30.37-88.57ZM824.1,427.67c0-45.72,16.29-94.25,43.58-129.81,19.4-25.29,53.15-55.44,103.7-55.44,84.76,0,176.24,44.57,176.24,116.58,0,104.96-73.6,187.18-167.55,187.18-77.64.01-155.97-36.64-155.97-118.51Z"/></svg></h1>
+    <p class="subtitle">
+      &#x1F44B;&#x1F3FC;&nbsp; My name is <!--
+      --><span class="ruby-char"><span class="ruby-rt">lín</span>林</span><!--
+      --><span class="ruby-char"><span class="ruby-rt">kuān</span>寬</span><!--
+      --><span class="ruby-char"><span class="ruby-rt">héng</span>恒</span>. I go by <b>Jordan</b> and publish under <b>Kuan Heng Lin</b>.
+    </p>
+    <p>
+      I'm a first-year PhD student at Columbia University, where I am fortunate to be advised by <a href="https://holynski.org">Aleksander Hołyński</a> and <a href="https://goldblum.github.io">Micah Goldblum</a>. I am interested in computer vision, multimodal generative models, and machine learning.
+    </p>
+    <p>
+      I was a Research Intern at Netflix Eyeline Labs, where I worked on 4D-grounded video generation and scene editing with <a href="https://ningyu1991.github.io">Ning Yu</a>. I was also a Research Engineering Intern at Snap Research, where I worked on 2D parallelism for scaling up video diffusion training (Snap Video V2) with <a href="https://www.willimenapace.com/">Willi Menapace</a>.
+    </p>
+    <p>
+      I did my undergrad at UCLA in Computer Science (+ Math minor), during which I had a great time working with <a href="https://boleizhou.github.io">Bolei Zhou</a> and <a href="https://sichengmo.github.io">Sicheng Mo</a> on controllable image generation.
+    </p>
+    <p>
+      I think pixels are cool, and I do &#x1F4F7; <a href="https://www.instagram.com/nine_egg">film photography</a> and used to do &#x1F3A5; <a href="https://jordanlin.notion.site/Film-Portfolio-15b72433ba87805ea223f2c62216d4db">filmmaking</a>.
+    </p>
+  </div>
+
+  <aside class="intro-side">
+    <img src="/media/jordan.jpg" alt="Jordan Lin" class="profile-pic">
+
+    <ul class="links">
+      <li><a href="mailto:jordan@cs.columbia.edu"><i class="fa-solid fa-envelope fa-fw"></i> Email</a></li>
+      <li><a href="/media/cv.pdf"><i class="fa-solid fa-file-lines fa-fw"></i> CV</a></li>
+      <li><a href="https://github.com/kuanhenglin"><i class="fa-brands fa-github fa-fw"></i> GitHub</a></li>
+      <li><a href="https://scholar.google.com/citations?user=TRUDDkoAAAAJ"><i class="fa-brands fa-google-scholar fa-fw"></i> Scholar</a></li>
+      <li><a href="https://www.linkedin.com/in/kuanhenglin"><i class="fa-brands fa-linkedin-in fa-fw"></i> LinkedIn</a></li>
+      <li><a href="https://twitter.com/kuanhenglin"><i class="fa-brands fa-twitter fa-fw"></i> Twitter</a></li>
+    </ul>
+  </aside>
+</div>
+
+<section class="research">
+  <h2>Research</h2>
+  <div class="pubs">
+    {% for pub in site.data.publications.publications %}
+    <div class="pub">
+      {%- if pub.teaser -%}
+        {%- assign teaser_link = pub.website | default: pub.paper -%}
+        {%- assign ext = pub.teaser | split: "." | last | downcase -%}
+        {%- if teaser_link -%}<a href="{{ teaser_link }}">{%- endif -%}
+          {%- if ext == "mp4" or ext == "webm" or ext == "mov" -%}
+            <video class="pub-teaser" src="{{ pub.teaser }}" autoplay muted loop playsinline></video>
+          {%- else -%}
+            <img class="pub-teaser" src="{{ pub.teaser }}" alt="{{ pub.title }}">
+          {%- endif -%}
+        {%- if teaser_link -%}</a>{%- endif -%}
+      {%- endif -%}
+      <div class="pub-info">
+        <div class="pub-title"><b>{{ pub.title }}</b></div>
+        <div class="pub-authors">
+          {%- for author in pub.authors -%}
+            {%- assign clean = author | remove: "*" | strip -%}
+            {%- assign person = site.data.publications.names | where: "name", clean | first -%}
+            {%- if person.link -%}<a href="{{ person.link }}">{% endif -%}
+              {%- if person.self -%}<b>{{ author }}</b>{%- else -%}{{ author }}{%- endif -%}
+            {%- if person.link -%}</a>{% endif -%}
+            {%- unless forloop.last -%}, {% endunless -%}
+          {%- endfor -%}
+        </div>
+        <div class="pub-venue"><i>{{ pub.venue }}</i>{% if pub.venue_note != "" %} <b class="pub-note">{{ pub.venue_note }}</b>{% endif %}</div>
+        <div class="pub-links">
+          {% if pub.paper %}<a href="{{ pub.paper }}">paper</a>{% endif %}
+          {% if pub.website %}<a href="{{ pub.website }}">website</a>{% endif %}
+          {% if pub.code %}<a href="{{ pub.code }}">code</a>{% endif %}
+        </div>
+        <div class="pub-blurb">{{ pub.blurb }}</div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+<section>
+  <h2>Not just research</h2>
+
+  <h3>Teaching</h3>
+  <p class="muted">I'm very passionate about CS & ML education!</p>
+  <ul class="bare">
+    <li>Teaching Assistant, <a href="https://doc.sis.columbia.edu/subj/COMS/W4732-20261-001/">COMS W4732: Computer Vision II</a>, Spring 2026</li>
+    <li>Program Development Team, <a href="https://ceils.ucla.edu/learning-communities-trainings/learning-assistant-program">UCLA Learning Assistant Program</a>, 2023&ndash;25</li>
+    <li>Learning Assistant, <a href="https://polyarch.github.io/cs33/">COM SCI 33: Computer Organization</a>, 2022&ndash;24</li>
+    <li>Workshops Officer, <a href="https://ai.uclaacm.com/">ACM AI @ UCLA</a>, 2022&ndash;23</li>
+  </ul>
+
+  <h3>Volunteering</h3>
+  <ul class="bare">
+    <li>President & Advisor, <a href="https://ai.uclaacm.com/">ACM AI @ UCLA</a>, 2023&ndash;25</li>
+    <li>Assistant Managing Editor, <a href="https://usjucla.wixsite.com/usj-ucla">UCLA Undergraduate Science Journal</a>, 2022&ndash;25</li>
+    <li>Cinematographer & editor & composer, <a href="https://www.fps-productions.com/">UCLA Film & Photography Society</a>, 2021&ndash;23</li>
+  </ul>
+
+  <h3>Awards</h3>
+  <ul class="bare">
+    <li>Finalist, <a href="https://cra.org/crae/awards/cra-outstanding-undergraduate-researchers/">CRA Outstanding Undergraduate Researcher Award</a>, 2025 (<a href="https://www.cs.ucla.edu/ucla-cs-undergraduate-student-kuan-heng-jordan-lin-named-2024-2025-cra-outstanding-undergraduate-researcher-award-finalist">UCLA CS Newsroom</a>, <a href="https://sparc.cra.org/from-taking-photos-to-generating-images">CRA Q&A Highlight</a>)</li>
+    <li><a href="https://www.pbk.org">Phi Beta Kappa</a> Honor Society, 2025</li>
+    <li>UCLA <a href="https://sciences.ugresearch.ucla.edu/programs-and-scholarships/ursp">Undergraduate Research Scholars Program</a>, 2024&ndash;25</li>
+  </ul>
+
+  <h3>Academic service</h3>
+  <ul class="bare">
+    <li><b>Reviewer:</b> CVPR 2025&ndash;26, NeurIPS 2025&ndash;26, ECCV 2024&ndash;26</li>
+  </ul>
+</section>
