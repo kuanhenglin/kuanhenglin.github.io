@@ -2,7 +2,7 @@
   "publications": [
     {
       "title": "Vista4D: Video Reshooting with 4D Point Clouds",
-      "authors": ["Kuan Heng Lin", "Zhizheng Liu", "Pablo Salamanca", "Yash Kant", "Ryan Burgert", "Koichi Namekata", "Yiwei Zhao", "Bolei Zhou", "Micah Goldblum", "Paul Debevec", "Ning Yu"],
+      "authors": ["Kuan Heng Lin", "Zhizheng Liu", "Pablo Salamanca", "Yash Kant", "Ryan Burgert", "Yuancheng Xu", "Koichi Namekata", "Yiwei Zhao", "Bolei Zhou", "Micah Goldblum", "Paul Debevec", "Ning Yu"],
       "venue": "CVPR 2026",
       "venue_note": "Highlight",
       "blurb": "Reshoot a video by moving the camera and manipulating the scene in a 4D point cloud. Robust to real-world 4D reconstruction artifacts to bridge the train-inference gap and enable cool applications.",
@@ -12,12 +12,23 @@
       "teaser": "/media/teasers/vista4d.mp4"
     },
     {
+      "title": "Go-with-the-Track: Video Compositing and Motion Control with Point Tracking",
+      "authors": ["Koichi Namekata", "Yash Kant†", "Zhizheng Liu", "Ryan Burgert", "Yuancheng Xu", "Kuan Heng Lin", "Emmett Steven", "Julien Philip", "Li Ma", "Andrea Vedaldi", "Paul Debevec", "Ning Yu†"],
+      "venue": "SIGGRAPH 2026",
+      "venue_note": "",
+      "blurb": "Compositing and motion control via joint conditioning on reference images and reference-anchored point tracks. Supports stylization, mesh-driven animation, keypoint transfer, and camera control.",
+      "paper": "https://arxiv.org/abs/2606.20891",
+      "website": "https://eyeline-labs.github.io/Go-with-the-Track",
+      "code": "https://github.com/Eyeline-Labs/Go-with-the-Track",
+      "teaser": "/media/teasers/go-with-the-track.mp4"
+    },
+    {
       "title": "Ctrl-X: Controlling Structure and Appearance for Text-To-Image Generation Without Guidance",
       "authors": ["Kuan Heng Lin*", "Sicheng Mo*", "Ben Klingher", "Fangzhou Mu", "Bolei Zhou"],
       "venue": "NeurIPS 2024",
       "venue_note": "",
       "blurb": "Training-free, guidance-free control of structure and appearance in text-to-image diffusion models via semantically-weighed feature injection. Structure control with any modality, fast, and plug-and-play.",
-      "paper": "https://arxiv.org/pdf/2406.07540",
+      "paper": "https://arxiv.org/abs/2406.07540",
       "website": "https://genforce.github.io/ctrl-x",
       "code": "https://github.com/genforce/ctrl-x",
       "teaser": "/media/teasers/ctrl-x.jpg"
@@ -28,7 +39,7 @@
       "venue": "CVPR 2024",
       "venue_note": "",
       "blurb": "Training-free spatial control for any text-to-image diffusion model by guiding generation to align with any input spatial condition via PCA-based feature coefficients.",
-      "paper": "https://arxiv.org/pdf/2312.07536.pdf",
+      "paper": "https://arxiv.org/abs/2312.07536",
       "website": "https://genforce.github.io/freecontrol",
       "code": "https://github.com/genforce/freecontrol",
       "teaser": "/media/teasers/freecontrol.jpg"
@@ -40,15 +51,22 @@
     {"name": "Pablo Salamanca", "link": "https://pablosalaman.ca"},
     {"name": "Yash Kant", "link": "https://yashkant.github.io"},
     {"name": "Ryan Burgert", "link": "https://ryanndagreat.github.io"},
+    {"name": "Yuancheng Xu", "link": "https://yuancheng-xu.github.io"},
     {"name": "Koichi Namekata", "link": "https://kmcode1.github.io"},
     {"name": "Yiwei Zhao", "link": "https://zhaoyw007.github.io"},
     {"name": "Bolei Zhou", "link": "https://boleizhou.github.io"},
     {"name": "Micah Goldblum", "link": "https://goldblum.github.io"},
     {"name": "Paul Debevec", "link": "https://www.pauldebevec.com"},
     {"name": "Ning Yu", "link": "https://ningyu1991.github.io"},
+    {"name": "Emmett Steven", "link": "https://www.linkedin.com/in/emmettsteven"},
+    {"name": "Julien Philip", "link": "https://julienphilip.com"},
+    {"name": "Li Ma", "link": "https://limacv.github.io/homepage"},
+    {"name": "Andrea Vedaldi", "link": "https://www.robots.ox.ac.uk/~vedaldi"},
     {"name": "Sicheng Mo", "link": "https://sichengmo.github.io"},
     {"name": "Ben Klingher", "link": "https://bklingher.github.io"},
     {"name": "Fangzhou Mu", "link": "https://pages.cs.wisc.edu/~fmu"},
+    {"name": "Yanli Liu", "link": "https://www.linkedin.com/in/yanli-liu-382248a6"},
+    {"name": "Bochen Guan", "link": "https://www.linkedin.com/in/bochenguan"},
     {"name": "Yin Li", "link": "https://www.biostat.wisc.edu/~yli"}
   ]
 }

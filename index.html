@@ -60,10 +60,11 @@ title: Jordan Lin
         <div class="pub-title"><b>{{ pub.title }}</b></div>
         <div class="pub-authors">
           {%- for author in pub.authors -%}
-            {%- assign clean = author | remove: "*" | strip -%}
+            {%- assign clean = author | remove: "*" | remove: "†" | strip -%}
+            {%- assign display = author | replace: "†", "<sup>†</sup>" -%}
             {%- assign person = site.data.publications.names | where: "name", clean | first -%}
             {%- if person.link -%}<a href="{{ person.link }}">{% endif -%}
-              {%- if person.self -%}<b>{{ author }}</b>{%- else -%}{{ author }}{%- endif -%}
+              {%- if person.self -%}<b>{{ display }}</b>{%- else -%}{{ display }}{%- endif -%}
             {%- if person.link -%}</a>{% endif -%}
             {%- unless forloop.last -%}, {% endunless -%}
           {%- endfor -%}
